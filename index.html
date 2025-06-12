@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para ti</title>
+    <meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="icon" href="./midias/envelope.png">
+    <link href="https://Blog.feeldream.repl.co/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js">
+    </script>
+    <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./page.css">
+</head>
+
+<body>
+
+   <!-- Tarjetas con Notas -->
+    <div id="pesanstiker">
+        <img id="stiker1" src="./midias/figu8.gif"/>
+    </div>
+    </div>
+
+    <!-- Fondo -->
+    <div id="bodyblur">
+        <img src="./midias/fundo1.jpeg" id="wallpaper" width="100%" height="100%"/>
+        <div id="beneranblur"></div>
+    </div>
+
+    <!-- Carta -->
+    <div id='Content'>
+        <div id="suratin" onClick="memulai();audio.play();">
+            <img src="./midias/envelope.png"/>
+        </div>
+        <p id="ket">¡HAZ CLIC EN MI VINYL!</p>
+
+        <!-- Aceptar -->
+        <div><img src="./midias/teste.webp" id="fotoakhir"/></div>
+
+        <div>
+            <blockquote id='bq'>
+                <p id="kalimat"></p>
+                <p id="kalimatb"></p>
+                <p id="kalimatc"></p>
+            </blockquote>
+        </div>
+
+        <!-- Botones de sí y no -->
+        <div id="Tombol">
+            <a id="By" onClick="multifungsi()">
+              <b id="tmbl">SÍ</b>
+            </a>
+            <b id='buttonv2'></b>
+            <a id="Bn" onClick="tolak()">NO</a>
+        </div>
+    </div>
+
+    <script src="./main_body.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
