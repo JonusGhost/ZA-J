@@ -252,8 +252,68 @@ const notas = [
                 </iframe>
             </div>
         `
+    },
+    {
+      title: 'Lista de Canciones - Cada una de ellas me hace pensar en ti.',
+      imageUrl: './midias/figu9.webp',
+      html: `
+        <div style="margin-top: 20px; display: flex; justify-content: center;">
+          <a href="https://www.tiktok.com/@jonus5937/collection/zuley-7496368594862246674?is_from_webapp=1&sender_device=pc" 
+             target="_blank" 
+             style="
+                width: 300px;
+                height: 80px;
+                border-radius: 12px;
+                background-color: #000;
+                color: white;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+                transition: 0.3s;
+            "
+            onmouseover="this.style.backgroundColor='#222';"
+            onmouseout="this.style.backgroundColor='#000';"
+          >
+            🔗 Ver colección en TikTok
+          </a>
+        </div>
+      `
+    },
+    {
+      title: 'Tus flores - Primeras flores que te regalé.',
+      imageUrl: './midias/figu10.jpg',
+      html: `
+        <div style="margin-top: 20px; display: flex; justify-content: center;">
+          <a href="https://drive.google.com/drive/folders/1NJaGPgj6ohrCZGb2k5T8aX8J4VpR8q_H?usp=sharing" 
+             target="_blank" 
+             style="
+                width: 300px;
+                height: 80px;
+                border-radius: 12px;
+                background-color: rgb(255, 255, 0);
+                color: #000;
+                text-decoration: none;
+                font-family: sans-serif;
+                font-weight: bold;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 4px 8px rgba(255, 255, 0, 0.2);
+                transition: 0.3s;
+            "
+            onmouseover="this.style.backgroundColor='rgb(161, 161, 0)';"
+            onmouseout="this.style.backgroundColor='rgb(255, 255, 0)';"
+          >
+            🌻 Instalar aplicación
+          </a>
+        </div>
+      `
     }
-];
+    ];
 
 function mostrarNotas(index = 0) {
     const nota = notas[index];
