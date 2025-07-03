@@ -172,7 +172,7 @@ textoRechazo2 = "No puedes decir NO, la única opción es SÍ. Pero inténtalo d
 const notas = [
     {
         title: 'Electric - A veces solo pienso en ti… y todo dentro mío se enciende.',
-        imageUrl: './midias/figu1.webp',
+        imageUrl: './media/figu1.webp',
         html: `
             <div style="margin-top: 20px;">
                 <iframe style="border-radius:12px" 
@@ -185,7 +185,7 @@ const notas = [
     },
     {
         title: 'Follow Me - Cuando no puedas más, aquí estaré.',
-        imageUrl: './midias/figu8.webp',
+        imageUrl: './media/figu8.webp',
         html: `
             <div style="margin-top: 20px;">
                 <iframe style="border-radius:12px" 
@@ -198,7 +198,7 @@ const notas = [
     },
     {
         title: 'I Feel Like Chet - Me la dedicaste y no sabía qué sentir… solo sonreí.',
-        imageUrl: './midias/figu5.webp',
+        imageUrl: './media/figu5.webp',
         html: `
             <div style="margin-top: 20px;">
                 <iframe style="border-radius:12px" 
@@ -211,7 +211,7 @@ const notas = [
     },
     {
         title: 'Ride or Die - Hay canciones que prenden fuego… como tú, cuando te gusta algo mucho.',
-        imageUrl: './midias/figu7.webp',
+        imageUrl: './media/figu7.webp',
         html: `
             <div style="margin-top: 20px;">
                 <iframe style="border-radius:12px" 
@@ -224,7 +224,7 @@ const notas = [
     },
     {
         title: 'I Cant Help Falling in Love - ¿Cómo no enamorarme de ti, si cada detalle tuyo me hace quererte más? (No encontre la de TOP)',
-        imageUrl: './midias/figu3.webp',
+        imageUrl: './media/figu3.webp',
         html: `
             <div style="margin-top: 20px;">
                 <iframe style="border-radius:12px" 
@@ -238,11 +238,11 @@ const notas = [
     {
         title: '¡Ya casi terminamos!',
         text: 'Pero esto es solo el comienzo de todo lo que quiero mostrarte (Claro sin presiones a nuestro ritmo)',
-        imageUrl: './midias/figu6.webp',
+        imageUrl: './media/figu6.webp',
     },
     {
         title: 'Undisclosed Desires - No quiero controlar, solo conocer… y cuidar lo que hay dentro de ti.',
-        imageUrl: './midias/figu2.webp',
+        imageUrl: './media/figu2.webp',
         html: `
             <div style="margin-top: 20px;">
                 <iframe style="border-radius:12px" 
@@ -255,7 +255,7 @@ const notas = [
     },
     {
       title: 'Lista de Canciones - Cada una de ellas me hace pensar en ti.',
-      imageUrl: './midias/figu9.webp',
+      imageUrl: './media/figu9.webp',
       html: `
         <div style="margin-top: 20px; display: flex; justify-content: center;">
           <a href="https://www.tiktok.com/@jonus5937/collection/zuley-7496368594862246674?is_from_webapp=1&sender_device=pc" 
@@ -285,7 +285,7 @@ const notas = [
     },
     {
       title: 'Tus flores - Primeras flores que te regalé.',
-      imageUrl: './midias/figu10.jpg',
+      imageUrl: './media/figu10.jpg',
       html: `
         <div style="margin-top: 20px; display: flex; justify-content: center;">
           <a href="https://drive.google.com/drive/folders/1NJaGPgj6ohrCZGb2k5T8aX8J4VpR8q_H?usp=sharing" 
