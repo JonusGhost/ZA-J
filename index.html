@@ -1,72 +1,46 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Para ti</title>
-    <meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/>
-    <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <link rel="icon" href="./media/envelope.png">
-    <link href="https://Blog.feeldream.repl.co/style.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
-    <script src="https://kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./page.css">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GE6E2Z1ZP5"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-GE6E2Z1ZP5');
-    </script>
+  <meta charset="UTF-8">
+  <title>Para Ti</title>
+  <link rel="icon" href="/media/envelope.png">
+  <link rel="stylesheet" href="/css/page.css">
 </head>
+<body class="body-nota">
 
-<body>
+  <!-- Titulo -->
+  <h1 class="h1-hola">Hola, tú 🌻</h1>
+  
+  <!-- Fondo -->
+  <div id="bodyblur">
+      <img src="/media/fundo1.jpg" id="wallpaper" width="100%" height="100%"/>
+      <div id="beneranblur"></div>
+  </div>
+  
+  <!-- Contenido -->
+  <p class="p-hola">
+    No sé si algún día esto entre tú y yo tenga un nombre claro…<br>
+    pero sé que hay algo en ti que me hace detenerme, admirarte y seguir creyendo en lo bonito.<br>
+    No te escribo esto para que sientas presión o compromiso,<br>
+    sino porque quiero que sepas que, aunque me calle muchas cosas, mi cariño por ti es sincero.<br>
+    Te he estado aprendiendo a tu ritmo, con cuidado, con pausas, con cariño verdadero.<br>
+    Si un día decides quedarte, créeme que procuraré que sientas paz, no prisa… seguridad, no dudas.<br>
+    Y si al final decides seguir otro camino, aún así, gracias.<br>
+    Porque fuiste la inspiración de todo esto que nació en mí sin que lo forzara.
+  </p>
 
-   <!-- Tarjetas con Notas -->
-    <div id="pesanstiker">
-        <img id="stiker1" src="./media/figu8.gif"/>
-    </div>
-    </div>
+  <!-- Botones -->
+  <div class="boton-container">
+    <a href="/notas/gusta.html" class="boton">Ver Lo que me Gusta</a>
+    <a href="/notas/notas.html" class="boton">Ver Canciones</a>
+  </div>
 
-    <!-- Fondo -->
-    <div id="bodyblur">
-        <img src="./media/fundo1.jpg" id="wallpaper" width="100%" height="100%"/>
-        <div id="beneranblur"></div>
-    </div>
+  <div class="heart">💙</div>
 
-    <!-- Carta -->
-    <div id='Content'>
-        <div id="suratin" onClick="memulai();audio.play();">
-            <img src="./media/envelope.png"/>
-        </div>
-        <p id="ket">!TOCA LA LLAVE!</p>
+  <footer>
+    Con cariño,<br>
+    alguien que piensa mucho en ti.
+  </footer>
 
-        <!-- Aceptar -->
-        <div><img src="./media/teste.webp" id="fotoakhir"/></div>
-
-        <div>
-            <blockquote id='bq'>
-                <p id="kalimat"></p>
-                <p id="kalimatb"></p>
-                <p id="kalimatc"></p>
-            </blockquote>
-        </div>
-
-        <!-- Botones de sí y no -->
-        <div id="Tombol">
-            <a id="By" onClick="multifungsi()">
-              <b id="tmbl">SÍ</b>
-            </a>
-            <b id='buttonv2'></b>
-            <a id="Bn" onClick="tolak()">NO</a>
-        </div>
-    </div>
-
-    <script src="./main_body.js"></script>
-    <script src="./main.js"></script>
 </body>
 </html>
